@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ui.SkipTestsDemo">
+      <class name="ui.DataProviders">
         <methods>
-          <include name="skipDemoTwo"/>
-          <include name="skipDemoThree"/>
-          <include name="beforeclass"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- ui.SkipTestsDemo -->
+      </class> <!-- ui.DataProviders -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
