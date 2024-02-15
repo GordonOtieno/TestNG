@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
@@ -16,6 +17,11 @@ public class TestingGroups {
 	public void testone() {
 	 System.out.println("Testing one");
 	}
+	
+	@BeforeGroups(value = "cde")
+	public void beforeGroup() {
+		 System.out.println("This is a before group method");
+		}
 	
 	@Test(priority = 2, groups = "abc")
 	public void testTwo() {
