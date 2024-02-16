@@ -1,24 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[This is  a test 2 log]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-02-15T15:26:46 EAT" name="Reading Browser details from Test.xml file" finished-at="2024-02-15T15:26:57 EAT" duration-ms="11548">
+  <suite started-at="2024-02-15T21:40:52 EAT" name="Default suite" finished-at="2024-02-15T21:40:52 EAT" duration-ms="325">
     <groups>
+      <group name="User-Registration">
+        <method signature="TestingGroups.testone()[pri:1, instance:ui.TestingGroups@2b4bac49]" name="testone" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testTwo()[pri:2, instance:ui.TestingGroups@2b4bac49]" name="testTwo" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testThree()[pri:3, instance:ui.TestingGroups@2b4bac49]" name="testThree" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testFour()[pri:4, instance:ui.TestingGroups@2b4bac49]" name="testFour" class="ui.TestingGroups"/>
+      </group> <!-- User-Registration -->
+      <group name="abc">
+        <method signature="TestingGroups.testone()[pri:1, instance:ui.TestingGroups@2b4bac49]" name="testone" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testTwo()[pri:2, instance:ui.TestingGroups@2b4bac49]" name="testTwo" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testThree()[pri:3, instance:ui.TestingGroups@2b4bac49]" name="testThree" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testFour()[pri:4, instance:ui.TestingGroups@2b4bac49]" name="testFour" class="ui.TestingGroups"/>
+      </group> <!-- abc -->
+      <group name="cde">
+        <method signature="TestingGroups.testThree()[pri:3, instance:ui.TestingGroups@2b4bac49]" name="testThree" class="ui.TestingGroups"/>
+        <method signature="TestingGroups.testFour()[pri:4, instance:ui.TestingGroups@2b4bac49]" name="testFour" class="ui.TestingGroups"/>
+      </group> <!-- cde -->
     </groups>
-    <test started-at="2024-02-15T15:26:46 EAT" name="Reading Browser details from xlm file" finished-at="2024-02-15T15:26:57 EAT" duration-ms="11548">
-      <class name="ui.Login">
-        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Login@672872e1]" started-at="2024-02-15T15:26:46 EAT" name="launchBrowser" finished-at="2024-02-15T15:26:57 EAT" duration-ms="11449" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-02-15T21:40:52 EAT" name="Default test" finished-at="2024-02-15T21:40:52 EAT" duration-ms="325">
+      <class name="ui.TestingGroups">
+        <test-method signature="testone()[pri:1, instance:ui.TestingGroups@2b4bac49]" started-at="2024-02-15T21:40:52 EAT" name="testone" finished-at="2024-02-15T21:40:52 EAT" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-      </class> <!-- ui.Login -->
-    </test> <!-- Reading Browser details from xlm file -->
-  </suite> <!-- Reading Browser details from Test.xml file -->
+        </test-method> <!-- testone -->
+        <test-method signature="testTwo()[pri:2, instance:ui.TestingGroups@2b4bac49]" started-at="2024-02-15T21:40:52 EAT" name="testTwo" finished-at="2024-02-15T21:40:52 EAT" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is  a test 2 log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:ui.TestingGroups@2b4bac49]" started-at="2024-02-15T21:40:52 EAT" name="beforeGroup" finished-at="2024-02-15T21:40:52 EAT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method signature="testThree()[pri:3, instance:ui.TestingGroups@2b4bac49]" started-at="2024-02-15T21:40:52 EAT" name="testThree" finished-at="2024-02-15T21:40:52 EAT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method signature="testFour()[pri:4, instance:ui.TestingGroups@2b4bac49]" started-at="2024-02-15T21:40:52 EAT" name="testFour" finished-at="2024-02-15T21:40:52 EAT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+      </class> <!-- ui.TestingGroups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

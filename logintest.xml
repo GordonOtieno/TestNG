@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Reading Browser details from Test.xml file">
-	<test name="Reading Browser details from xlm file">
- <parameter name="browser" value="Chrome"></parameter>
+<suite name="Listner Test Suite">
+	<listeners>
+		<listener class-name="common.ListenersTestClass"/>
+	</listeners>
+	<test name="Listner  testing">
+ <parameter name="browser" value="firefox"></parameter>
  <classes>
-	 <class name="ui.Login"></class>
+	 <class name="common.ListnerDemoTest"></class>
  </classes>
  </test>
 </suite> <!-- Suite -->
